@@ -1,0 +1,64 @@
+body{
+
+    background-color: rgb(44, 6, 116);
+    padding: 60px;
+    color: rgb(255, 255, 255);
+}
+
+input{
+
+    width:100%;
+    height: 30px;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(0, 0, 0);
+    border-radius: 5px;
+    border-style:dashed;
+    
+}
+
+.card{
+    
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    align-content: center;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0px 0px 8px 0px black;
+    display:inline-block;
+    position: relative;
+    
+
+}
+
+.card p{
+    padding-top: 5px;
+    text-align:center;
+    color: black;
+    font-family: Times, serif;
+    width:100px;
+}
+
+.card img{
+    align-items: center;
+    justify-content: center;
+    height:100px;
+    width: auto;
+        
+}
+
+.card-grid{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.loading{
+
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    
+}
