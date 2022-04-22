@@ -36,7 +36,7 @@ const GifGrid = ({query}) => {
                 ))
             }
         </ol>
-        {loading && <img className="loading" alt="icono carga" src='../loading.gif'/>}  
+        {loading && <img className="loading" alt="icono carga" src='./loading.gif'/>}  
     </div>
   )
 }

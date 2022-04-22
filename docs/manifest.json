@@ -20,7 +20,7 @@
     {
       "src": "loading.gif",
       "type": "image/gif",
-      "sizes": "512x512"
+      "sizes": "200x200"
     }
   ],
   "start_url": ".",
